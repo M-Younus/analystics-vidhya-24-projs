@@ -13,7 +13,7 @@ import pandas as pd
 # In[2]:
 
 
-df=pd.read_csv('train.csv')
+df=pd.read_csv('D:\DM\analystics vidhya 24 projs prac\loan predictions\train.csv')
 
 
 # In[3]:
