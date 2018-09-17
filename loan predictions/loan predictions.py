@@ -12,8 +12,7 @@ import pandas as pd
 
 # In[2]:
 
-
-df=pd.read_csv('D:\DM\analystics vidhya 24 projs prac\loan predictions\train.csv')
+df=pd.read_csv('train.csv')
 
 
 # In[3]:
@@ -301,11 +300,6 @@ predictor_var=['TotalIncome_log','LoanAmount_log','Credit_History','Dependents',
 classification_model(model,df,predictor_var,outcome_var)
 
 #%%
-    
-    
-    
-    
-    
     
     
     
